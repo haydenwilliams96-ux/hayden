@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RAF Cranwell Roblox</title>
+<style>
+body {
+margin: 0;
+font-family: Arial;
+background-color: #0a0a0a;
+color: white;
+}
+
+/* NAVBAR */
+.navbar {
+background-color: black;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+/* HERO */
+.hero {
+background-image: url('https://i.imgur.com/Z6X9F5W.png'); /* CHANGE THIS */
+height: 90vh;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero h1 {
+font-size: 60px;
+background-color: rgba(0,0,0,0.6);
+padding: 20px;
+}
+
+/* SECTIONS */
+.section {
+padding: 50px;
+text-align: center;
+}
+
+.ranks {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.box {
+background-color: #111;
+padding: 15px;
+border: 1px solid white;
+margin: 10px 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<div>RAF CRANWELL</div>
+<div>
+<a href="#home">Home</a>
+<a href="#ranks">RAF Ranks</a>
+<a href="#jobs">Jobs</a>
+<a href="#apply">Apply</a>
+</div>
+</div>
+
+<!-- HOME -->
+<div class="hero" id="home">
+<h1>JOIN THE WINGS</h1>
+</div>
+
+<!-- RANKS -->
+<div class="section" id="ranks">
+<h2>Royal Air Force Ranks</h2>
+<div class="ranks">
+
+<div class="box">Aircraftman</div>
+<div class="box">Leading Aircraftman</div>
+<div class="box">Corporal</div>
+<div class="box">Sergeant</div>
+<div class="box">Flight Sergeant</div>
+<div class="box">Warrant Officer</div>
+
+<div class="box">Pilot Officer</div>
+<div class="box">Flying Officer</div>
+<div class="box">Flight Lieutenant</div>
+<div class="box">Squadron Leader</div>
+<div class="box">Wing Commander</div>
+<div class="box">Group Captain</div>
+
+<div class="box">Air Commodore</div>
+<div class="box">Air Vice Marshal</div>
+<div class="box">Air Marshal</div>
+<div class="box">Air Chief Marshal</div>
+
+</div>
+</div>
+
+<!-- JOBS -->
+<div class="section" id="jobs">
+<h2>RAF Jobs & Divisions</h2>
+
+<div class="box">
+Air Command – is the total control consisting of the highest ranking officers. They oversee the training of troops and ensure the smooth running of daily activities. They also host formal inspections where promotions and nominations are announced.
+</div>
+
+<div class="box">
+DFRS – is our Fire and Rescue Service that responds to crashes and emergencies involving pilots or fires on base. They handle all fire-related incidents with professionalism and speed.
+</div>
+
+<div class="box">
+Kings Colour Squadron – are a dedicated drill and ceremonial unit focused on presentation. From drill to band, they represent honour, discipline, and pride in service to the King.
+</div>
+
+<div class="box">
+MSB – acts as the HR of the RAF. They are responsible for personnel welfare and ensuring all members are treated fairly and respectfully.
+</div>
+
+<div class="box">
+No.1 Squadron – is our fast jet and reconnaissance unit, operating Typhoons, P-8s, and E-3s. It includes both pilots and ground crew, with opportunities in ATC as well.
+</div>
+
+<div class="box">
+No.11 Squadron – is responsible for Air Traffic Control. They manage and control all airspace operations across the base.
+</div>
+
+<div class="box">
+No.2 Squadron – is our heavy transport group, operating the A400M Atlas and KC2 Voyager. They handle transport of cargo, personnel, and air-to-air refuelling.
+</div>
+
+<div class="box">
+No.22 Squadron – is the training division. All recruits must complete training here before progressing further in their RAF career.
+</div>
+
+<div class="box">
+RAF Police – maintain base security and ensure lawful conduct. They respond to incidents with professionalism and efficiency.
+</div>
+
+<div class="box">
+RAF Regiment – is the ground combat force of the RAF. They deploy rapidly to combat and support missions worldwide.
+</div>
+
+<div class="box">
+Red Arrows – are the elite display team, recruiting only the best pilots. Progress through No.1 Squadron for a chance to join.
+</div>
+
+</div>
+
+<!-- APPLY -->
+<div class="section" id="apply">
+<h2>Apply Now</h2>
+<p>To begin your journey, join our official Discord server.</p>
+
+<button onclick="window.location.href='https://discord.gg/ZbBcYXxKFK'">
+Join Discord
+</button>
+</div>
+
+</body>
+</html>
